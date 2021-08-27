@@ -2,9 +2,7 @@ import { useEffect,useState } from 'react';
 import './App.css';
 import axios from 'axios';
 import TableCoins from './components/TableCoins'
-
 function App() {
-
   const [coins, setCoins,] = useState([]);
   const [search, setSearch,] = useState('');
 
